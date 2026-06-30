@@ -60,5 +60,6 @@ function markdownPlugin() {
 }
 
 export default defineConfig({
+  base: "/boku/",
   plugins: [markdownPlugin(), react()],
 });
